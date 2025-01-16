@@ -1,0 +1,144 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column; /* Makes container and history vertical */
+  align-items: center; /* Centers the overall content horizontally */
+  gap: 40px; /* Adds spacing between container sections */
+}
+
+.sectionHeader {
+  width: 100%; /* Ensure the section header spans full width */
+  background: rgba(12, 12, 12, 0.6); /* Add semi-transparent background */
+  padding: 10px 20px; /* Padding for better spacing */
+  border-radius: 10px; /* Add curved borders */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: left; /* Align title to the left */
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+  justify-content: flex-start; /* Aligns items to the left */
+  width: 100%; /* Ensures the skills section spans the width */
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+.courses {
+  width: 100%; /* Ensure courses span the full width */
+  text-align: left; /* Align the list text to the left */
+}
+
+.courses ul {
+  list-style-position: inside;
+  list-style-type: disc;
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  line-height: 1.8;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%; /* Ensures the history section spans the width */
+  align-items: center; /* Keeps history content centered */
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+  width: 100%; /* Ensure it spans full width */
+}
+
+.historyItem img {
+  width: 50px;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.historyItemDetails p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 25px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    gap: 20px;
+  }
+
+  .skills {
+    justify-content: flex-start; /* Ensures left alignment on smaller screens */
+  }
+
+  .courses {
+    text-align: center; /* Adjust for smaller screens */
+  }
+
+  .history {
+    gap: 20px;
+  }
+}
+
+
+
+
+
