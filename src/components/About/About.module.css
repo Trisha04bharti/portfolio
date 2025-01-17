@@ -17,6 +17,18 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0ef;
+  border-radius: 40px;
+  text-decoration: none;
+  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.title:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
 .content {
@@ -83,6 +95,7 @@
 
   .aboutItems {
     margin-top: 29px;
+    gap: 15px;
   }
 
   .aboutItem {
@@ -90,3 +103,62 @@
     padding-right: 0;
   }
 }
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  background: #19376d;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.iconWrapper:hover {
+  background-color: #0f4b6e;
+  box-shadow : 0 0 20px #0ef;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.iconWrapper:hover .icon {
+  transform: scale(1.1);
+}
+
+.iconText {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: none;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+}
+
+
+
+
+
+
+

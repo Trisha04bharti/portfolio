@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.3.0",
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

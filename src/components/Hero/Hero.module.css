@@ -33,13 +33,26 @@
   -webkit-background-clip: text;
 }
 
+.textLine {
+  font-size: 30px; /* Increased font size for "And I'm a" */
+  margin-bottom: 20px; /* Added spacing below the line */
+  font-weight: bold;
+}
+
+.text {
+  color: var(--color-primary); /* Add highlight color for the typing effect */
+  font-weight: bold;
+  font-size: 36px; /* Adjust font size to match the design */
+}
+
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  text-align: justify; /* Improved readability on smaller screens */
 }
 
-.contactBtn {
+/* .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -48,7 +61,13 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
 }
+
+.contactBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+} */
 
 .heroImg {
   width: 30%;
@@ -77,7 +96,6 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -91,7 +109,6 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
@@ -103,9 +120,67 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-right: 5%; /* Adjust margins for smaller screens */
   }
 
   .content {
     align-items: center;
+    text-align: center; /* Center-align text on smaller screens */
+  }
+
+  .title {
+    font-size: 48px; /* Reduce title size for smaller screens */
+  }
+
+  .textLine {
+    font-size: 24px; /* Adjust font size for smaller screens */
+    margin-bottom: 15px; /* Adjust spacing */
+  }
+
+  .description {
+    font-size: 24px; /* Adjust font size for better readability */
+  }
+
+  .contactBtn {
+    font-size: 24px; /* Smaller button size for smaller screens */
+    padding: 14px 22px;
+  }
+
+  .heroImg {
+    width: 60%; /* Adjust image size for responsiveness */
   }
 }
+
+.contacts {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* No need to specify width/height for .contacts */
+  margin: 30px 15px 30px 0;
+}
+
+.contacts a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  margin: 0 10px; /* Adjust the spacing between each icon */
+  transition: transform 0.3s ease;
+}
+
+.contacts a:hover {
+  transform: scale(1.1); /* Scale the icon when hovered */
+  background: #0ef;
+  color : #081b29;
+  box-shadow : 0 0 20px #0ef;
+}
+
+
