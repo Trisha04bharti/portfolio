@@ -9,7 +9,7 @@ export const Hero = () => {
   useEffect(() => {
     // Initialize Typed.js with options
     const typed = new Typed(typedRef.current, {
-      strings: ["Full Stack Developer", "Web Developer"], // Strings to type
+      strings: ["Full Stack Web Developer"], // Strings to type
       typeSpeed: 100, // Typing speed
       backSpeed: 100, // Backspacing speed
       backDelay: 1000, // Delay before typing starts again
@@ -26,16 +26,10 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Trisha Bharti</h1>
         <h3 className={styles.textLine}>
-          And I'm a <span ref={typedRef} className={styles.text}></span>
+          And I'm a  <span ref={typedRef} className={styles.text}></span> 
         </h3>
-        <p className={styles.description}>
-        I am a  Web Designer and Full-Stack Web Developer specializing 
-        in the MERN tech stack. Currently pursuing  B.Tech in Information Technology 
-        at the  Indian Institute of Information Technology, Allahabad.
-        </p>
-        {/* <a href="mailto:trishabharti444@email.com" className={styles.contactBtn}>
-          Contact Me
-        </a> */}
+       
+       
 
         <div className = {styles.contacts}>
           <a href ="https://www.facebook.com/profile.php?id=100090519741553"><i class='bx bxl-facebook'></i> </a>

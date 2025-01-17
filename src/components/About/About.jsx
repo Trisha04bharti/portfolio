@@ -20,8 +20,10 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Education</h3>
               <p>
-                I'm a B.Tech student in Information Technology at IIIT Allahabad, driven by a passion for technology and innovation.
-              </p>
+               IIIT Allahabad <br />
+               B.Tech in Information Technology
+          </p>
+
             </div>
           </li>
           <li className={styles.aboutItem}>
@@ -29,7 +31,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Full Stack Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems and APIs
+                I have experience developing fast and optimised Full Stack Web Applications.
               </p>
             </div>
           </li>
@@ -38,7 +40,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Competitive Programming</h3>
               <p>
-                I am a 3-star coder on CodeChef and a Knight on LeetCode, having solved more than 600 questions across various platforms
+                 I have solved more than 500 problems on different platforms <br /> 
+                  
               </p>
             
               <div className={styles.contacts}>
