@@ -33,7 +33,7 @@ export const Hero = () => {
 
         <div className = {styles.contacts}>
           <a href ="https://www.facebook.com/profile.php?id=100090519741553"><i class='bx bxl-facebook'></i> </a>
-          <a href = "#"><i class='bx bxl-instagram'></i></a>
+          <a href = "https://www.instagram.com/trisha_04_03/"><i class='bx bxl-instagram'></i></a>
           <a href = "https://github.com/Trisha04bharti"><i class='bx bxl-github'></i></a>
           <a href = "https://www.linkedin.com/in/trisha-bharti-96100a261/"><i class='bx bxl-linkedin' ></i></a>
 
