@@ -18,27 +18,7 @@
   border-radius: 10px; /* Add curved borders */
 }
 
-/* .title {
-  font-size: 35px;
-  
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-  text-align: left; /* Align title to the left */
-  /* display : inline-block;
-  padding : 12px 28px;
-  background : #0ef;
-  
-  border-radius : 40px;
-  color : #081b29;
-  text_decoration : none;
-  box-shadow : 0 0 5px #0ef, 0 0 25px, #0ef;
 
-}
-
-.title:hover {
-    box-shadow : 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan , 0 0 100px cyan, 0 0 200px cyan;
-} */ 
 
 .title {
   font-size: 35px;
@@ -192,6 +172,22 @@
   list-style: none; /* Remove default list item bullets */
    box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
 }
+
+.play {
+  padding: 3vw 2.2vw;
+  background-color: black;
+  color: white;
+  font-size: 1.3vw;
+  position: fixed;
+  text-transform: uppercase;
+  font-family: futura, sans-serif;
+  border-radius: 50%;
+  opacity: 0;
+  scale: 0;
+  pointer-events: none; /* This makes sure it doesn't block interactions */
+  z-index: 1000; /* Ensures it's on top of other content */
+}
+
 
 
 
