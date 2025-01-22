@@ -5,7 +5,7 @@
     "description": "It is an web application that enables the user to search movies of his interest with Keywords. Also the user can go through movie discription",
     "skills": ["React", "Express", "Node"],
     "demo": "https://github.com/Trisha04bharti/contact_List/blob/main/demo.png",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Trisha04bharti/Movie_Mania"
   },
   {
     "title": "News Glance",
@@ -13,7 +13,7 @@
     "description": "It is an web application that enables the user to go through news at one glance.Also the user can go through the detailed news if interested ",
     "skills": ["React", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Trisha04bharti/News_Glance"
   },
   {
     "title": "Mess feed Back System",
@@ -21,6 +21,6 @@
     "description": "website where users can log in and give their feedback on mess food. implemented a voting system on listed food items, and the food item with the most votes will be on top of the list. .",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Trisha04bharti/Mess-feedback-System"
   }
 ]
