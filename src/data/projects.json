@@ -4,7 +4,7 @@
     "imageSrc": "projects/project.png",
     "description": "It is an web application that enables the user to search movies of his interest with Keywords. Also the user can go through movie discription",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "demo": "https://github.com/Trisha04bharti/contact_List/blob/main/demo.png",
     "source": "https://www.github.com"
   },
   {
