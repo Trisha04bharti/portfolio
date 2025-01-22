@@ -1,4 +1,4 @@
-# React + Vite
+
 This project is my personal portfolio built with React and Vite, designed to showcase my creativity, technical skills, and experience in web development.
 It features an interactive, animated, and visually engaging interface to leave a lasting impression.
 
