@@ -1,8 +1,23 @@
 # React + Vite
+This project is my personal portfolio built with React and Vite, designed to showcase my creativity, technical skills, and experience in web development.
+It features an interactive, animated, and visually engaging interface to leave a lasting impression.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Vite: Fast and modern build tool for lightning-fast development.
+React: The robust JavaScript library for building user interfaces.
+Axios: Simplified HTTP requests for fetching and displaying data dynamically.
+CSS: Customized styles to deliver an aesthetic and responsive design.
 
-Currently, two official plugins are available:
+Highlights
+Minimal yet elegant design to emphasize creativity and professionalism.
+Interactive elements that create a dynamic user experience.
+Fully responsive layout that adapts seamlessly to all screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Preview](demo.png)
+[Portfolio Link](https://portfolio-three-opal-79.vercel.app/)
+
+
+
+
+
+
