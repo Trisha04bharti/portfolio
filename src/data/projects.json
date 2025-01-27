@@ -8,6 +8,15 @@
     "source": "https://github.com/Trisha04bharti/Movie_Mania"
   },
   {
+    "title": "Divine-Destinations ",
+    "imageSrc": "projects/budha.png",
+    "description": "A web application that serves as a tourist guide for Bodhgaya, providing details about nearby temples and calculating distances from the user's location. ",
+    "skills": ["HTML", "CSS", "Java Script", "API"],
+    "demo": "https://divine-destinations.vercel.app/",
+    "source": "https://github.com/Trisha04bharti/Divine-Destinations"
+  },
+
+  {
     "title": "News Glance",
     "imageSrc": "projects/newss.png",
     "description": "It is an web application that enables the user to go through news at one glance.Also the user can go through the detailed news if interested ",
@@ -15,12 +24,13 @@
     "demo": "https://www.example.com",
     "source": "https://github.com/Trisha04bharti/News_Glance"
   },
+
   {
     "title": "Mess feed Back System",
     "imageSrc": "projects/food.png",
     "description": "website where users can log in and give their feedback on mess food. implemented a voting system on listed food items, and the food item with the most votes will be on top of the list. .",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "demo": "https://github.com/Trisha04bharti/Mess-feedback-System",
     "source": "https://github.com/Trisha04bharti/Mess-feedback-System"
   }
 ]
