@@ -17,12 +17,12 @@
   },
 
   {
-    "title": "News Glance",
+    "title": "Contact List",
     "imageSrc": "projects/newss.png",
-    "description": "It is an web application that enables the user to go through news at one glance.Also the user can go through the detailed news if interested ",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/Trisha04bharti/News_Glance"
+    "description": "This is basically a full stack contact-list web application where user can create new contacts , edit saved contacts , delete saved contacts ",
+    "skills": ["React", "Express", "Node", "Mongodb"],
+    "demo": "https://github.com/Trisha04bharti/contact_List/blob/main/demo.png",
+    "source": "https://github.com/Trisha04bharti/contact_List"
   },
 
   {
