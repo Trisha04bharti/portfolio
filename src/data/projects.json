@@ -1,12 +1,5 @@
 [
-  {
-    "title": "Movie Maina",
-    "imageSrc": "projects/project.png",
-    "description": "It is an web application that enables the user to search movies of his interest with Keywords. Also the user can go through movie discription",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://github.com/Trisha04bharti/Movie_Mania/blob/main/demo.png",
-    "source": "https://github.com/Trisha04bharti/Movie_Mania"
-  },
+
   {
     "title": "Divine-Destinations ",
     "imageSrc": "projects/budha.png",
@@ -14,6 +7,14 @@
     "skills": ["HTML", "CSS", "Java Script", "API"],
     "demo": "https://divine-destinations.vercel.app/",
     "source": "https://github.com/Trisha04bharti/Divine-Destinations"
+  },
+  {
+    "title": "Movie Maina",
+    "imageSrc": "projects/project.png",
+    "description": "It is an web application that enables the user to search movies of his interest with Keywords. Also the user can go through movie discription",
+    "skills": ["React", "Axios", "TMDB API"],
+    "demo": "https://github.com/Trisha04bharti/Movie_Mania/blob/main/demo.png",
+    "source": "https://github.com/Trisha04bharti/Movie_Mania"
   },
 
   {
@@ -29,7 +30,7 @@
     "title": "Mess feed Back System",
     "imageSrc": "projects/food.png",
     "description": "website where users can log in and give their feedback on mess food. implemented a voting system on listed food items, and the food item with the most votes will be on top of the list. .",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["php", "Mysql", "Java Script"],
     "demo": "https://github.com/Trisha04bharti/Mess-feedback-System",
     "source": "https://github.com/Trisha04bharti/Mess-feedback-System"
   }

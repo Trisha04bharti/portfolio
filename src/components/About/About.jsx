@@ -45,7 +45,7 @@ export const About = () => {
               </p>
             
               <div className={styles.contacts}>
-  <a href="https://leetcode.com/u/IamTrisha04/" className={styles.iconWrapper}>
+  <a href="https://leetcode.com/u/trisha_tomy/" className={styles.iconWrapper}>
     <img
       src="https://img.icons8.com/?size=100&id=wDGo581Ea5Nf&format=png&color=000000"
       alt="LeetCode Icon"
